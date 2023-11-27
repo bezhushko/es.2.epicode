@@ -1,0 +1,133 @@
+:root {
+    --logo-bg:#222f3e;
+    --navbar-bg:#354758;
+    --head-bg:#f56600;
+    --link-color:#017185;
+ }
+
+ .body{ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{ 
+    background-color: var(--logo-bg);
+}
+.logo{ 
+    margin-left: 30px;
+    padding: 10px;
+}
+.logo-img{ 
+   width: 150px;
+}
+.bottomNavbar{ 
+    background-color: var(--navbar-bg);
+    color: white;
+}
+.navbar-links{ 
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0 40px 0 40px;
+    padding: 7px;
+}
+.spacing{ 
+    padding: 20px;
+}
+.header{ 
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.header-title{ 
+    background-color: var(--head-bg);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-title h3{ 
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    text-align: center;
+}
+.header-text{
+    text-align: center;
+    border: 3px;
+}
+
+.header-imageContainer{ 
+    background-image: url(./assets/bg-image.png); 
+background-size: contain;
+    margin-top: 20px;
+    min-height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header-img{ 
+    width: 100%;
+    margin-top: 20px;
+ 
+}
+
+.header-text { 
+color:white;
+}
+.header-text h2
+.header-text h5{
+    margin: 100px;
+    padding: 5px;
+    text-align: center;
+ }
+ .header-text h2{ 
+    padding: 9px;  
+    font-size: 30px;
+    margin-bottom: 1px;
+ }
+.header-text h5{ 
+    font-size:20px;
+    padding: 6px;
+    margin-top: 1px;
+
+}
+.first-section{ }
+
+.textProduct{
+    padding: 10px;
+ }
+
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+} 
+.productImg{
+    width: 300px ;
+border-radius: 15px;
+min-height: 350px;
+object-fit: cover;
+padding: 15px;
+}
+.endsectionImg{
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+ }
+ .endsection{
+    text-align: center;
+  }
+
+
+
+
